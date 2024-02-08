@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #E98A15;
+  padding: 3em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card p {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 0 0 40px 0;
+  word-wrap: break-word;
+}
+
+.card button {
+  padding: 0.6em 1.2em;
+  color: #E7ECEF;
+  font-size: 1em;  
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #000000;
+}
