@@ -1,14 +1,14 @@
 import './App.css'
-import Paragraph from './components/paragraph/paragraph'
-import Button from './components/button/button'
+import Button from './components/AlertButton'
+import Paragraph from './components/StyledText'
 
 function App() {
   return (
-    <div className='card'>
+    <>
       <Paragraph text="Texto colorido e em maiúsculas" color="indigo"/>
 
-      <Button label="Baixar CV"/>
-    </div>
+      <Button label="Baixar"/>
+    </>
   )
 }
 
